@@ -1,3 +1,5 @@
+import useFetch from './useFetch.js';
+
 const d = document;
 const selectTag = d.querySelector('#select-tag');
 const templateCards = d.querySelector('#template-cards').content;
@@ -6,24 +8,39 @@ const contentCards = d.querySelector('#content-cards');
 
 d.addEventListener('DOMContentLoaded', app);
 
-function app() {
+async function app() {
   d.querySelector('#year').textContent = new Date().getFullYear();
+
+  await getTags(); // esperar para obtener un valor en el option del select
   createCards(selectTag.value);
   selectTag.addEventListener('change', ({ target }) =>
     createCards(target.value)
   );
 }
 
+async function getTags() {
+  const { tags } = await useFetch();
+  const tagsOrder = tags.sort();
+
+  tagsOrder.forEach((item) => {
+    const option = d.createElement('option');
+    option.value = item.toLowerCase();
+    option.textContent = item;
+    selectTag.appendChild(option);
+  });
+}
+
 async function createCards(optionValue) {
-  const resp = await fetch('./assets/db/db.json');
-  const data = await resp.json();
-  const items = data.filter((item) => item.tag === optionValue);
+  const { data } = await useFetch();
+  const items = data.filter(({ tag }) => tag.toLowerCase() === optionValue);
 
   contentCards.innerHTML = '';
   if (items.length > 0) {
     items.forEach(uiCard);
   } else {
-    console.log('no hay elementos');
+    const h3 = d.createElement('h3');
+    h3.textContent = 'Aún no hay recursos para este filtro.';
+    contentCards.appendChild(h3);
   }
 }
 

@@ -1,4 +1,16 @@
-$bgColor: #eee;
+// colors
+$bgColor: #1e293b;
+$lightColor: #f8fafc;
+$primaryColor: #fdba74;
+$secondaryColor: #f87171;
+
+// fonts
+$fontBase: 1rem;
+$fontMedium: $fontBase + 0.6;
+$fontLarge: $fontBase + 3;
+$fontExtraLarge: $fontBase + 4;
+
+// utils
 $transition: all 0.3s;
 $borderRadius: 1rem;
 

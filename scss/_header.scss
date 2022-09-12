@@ -1,14 +1,37 @@
 .header {
-  background-image: linear-gradient(45deg, orange, red);
+  background-image: linear-gradient(45deg, $primaryColor, $secondaryColor);
+  color: $lightColor;
 
   &__navbar {
     @extend .container;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 1.5rem;
+    font-size: $fontMedium;
+
+    svg {
+      stroke: $lightColor;
+    }
   }
 
   &__intro {
     @extend .container;
+    text-align: center;
+    padding: 8rem 0;
+    font-size: $fontMedium;
+
+    h1 {
+      font-size: $fontExtraLarge;
+      margin-bottom: 2rem;
+      text-shadow: 0 0 2rem rgba(0, 0, 0, 0.3);
+    }
+  }
+}
+
+@media (min-width: $bpMedium) {
+  .header__intro p {
+    width: 80%;
+    margin: 0 auto;
   }
 }

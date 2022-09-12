@@ -1,44 +1,33 @@
-[
-  {
-    "title": "title de prueba 1",
-    "description": "descripcion 1",
-    "url": "https://bysbit.com",
-    "image": "/assets/images/test.png",
-    "tag": "css"
-  },
-  {
-    "title": "title de prueba 1",
-    "description": "descripcion 1",
-    "url": "",
-    "image": "/assets/images/test.png",
-    "tag": "css"
-  },
-  {
-    "title": "title de prueba 1",
-    "description": "descripcion 1",
-    "url": "",
-    "image": "/assets/images/test.png",
-    "tag": "css"
-  },
-  {
-    "title": "title de prueba 1",
-    "description": "descripcion 1",
-    "url": "",
-    "image": "/assets/images/test.png",
-    "tag": "css"
-  },
-  {
-    "title": "title de prueba 1",
-    "description": "descripcion 1",
-    "url": "",
-    "image": "/assets/images/test.png",
-    "tag": "html"
-  },
-  {
-    "title": "title de prueba 1",
-    "description": "descripcion 1",
-    "url": "",
-    "image": "/assets/images/test.png",
-    "tag": "html"
-  }
-]
+{
+  "tags": ["CSS", "Colores", "SVG"],
+  "data": [
+    {
+      "title": "Super Designer",
+      "description": "Colección de herramientas para fondos, patrones y mucho más.",
+      "url": "https://superdesigner.co/",
+      "image": "/assets/images/superdesigner.png",
+      "tag": "CSS"
+    },
+    {
+      "title": "Color Hunt",
+      "description": "Colección de paletas de colores.",
+      "url": "https://colorhunt.co/",
+      "image": "/assets/images/colorhunt.png",
+      "tag": "Colores"
+    },
+    {
+      "title": "Fffuel",
+      "description": "Colección de herramientas gradientes, generadores de SVG y más.",
+      "url": "https://fffuel.co/",
+      "image": "/assets/images/fffuel.png",
+      "tag": "CSS"
+    },
+    {
+      "title": "Haikei",
+      "description": "Generador SVG de blob, waves y más.",
+      "url": "https://app.haikei.app/",
+      "image": "/assets/images/haikei.png",
+      "tag": "SVG"
+    }
+  ]
+}
