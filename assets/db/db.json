@@ -1,5 +1,15 @@
 {
-  "tags": ["CSS", "Colores", "SVG"],
+  "tags": [
+    "CSS",
+    "Colores",
+    "SVG",
+    "Animaciones",
+    "Fondos y Gradientes",
+    "Tipografías",
+    "Sombras",
+    "Spinners",
+    "Herramientas"
+  ],
   "data": [
     {
       "title": "Super Designer",
@@ -28,6 +38,223 @@
       "url": "https://app.haikei.app/",
       "image": "/assets/images/haikei.png",
       "tag": "SVG"
+    },
+    {
+      "title": "Grid Malven",
+      "description": "Ejemplo de Grid y sus propiedades.",
+      "url": "https://grid.malven.co/",
+      "image": "/assets/images/grid-malven.png",
+      "tag": "CSS"
+    },
+    {
+      "title": "Flexbox Malven",
+      "description": "Ejemplo de Flexbox y sus propiedades.",
+      "url": "https://flexbox.malven.co/",
+      "image": "/assets/images/flex-malven.png",
+      "tag": "CSS"
+    },
+    {
+      "title": "Toptal Minifier CSS",
+      "description": "Minificador online de código CSS.",
+      "url": "https://www.toptal.com/developers/cssminifier",
+      "image": "/assets/images/toptal-minifier-css.png",
+      "tag": "CSS"
+    },
+    {
+      "title": "Spinkit",
+      "description": "Generador de múltiples spinners.",
+      "url": "https://tobiasahlin.com/spinkit/",
+      "image": "/assets/images/spinkit.png",
+      "tag": "Spinners"
+    },
+    {
+      "title": "Hue",
+      "description": "Herramienta para la definición de colores.",
+      "url": "https://hue.tools/?format=hex",
+      "image": "/assets/images/hue.png",
+      "tag": "Colores"
+    },
+    {
+      "title": "Get Waves",
+      "description": "Creador de waves para descargar en SVG.",
+      "url": "https://getwaves.io/",
+      "image": "/assets/images/getwaves.png",
+      "tag": "SVG"
+    },
+    {
+      "title": "CSS Layout",
+      "description": "Mútiples componentes prediseñados como cards, drop area, etc.",
+      "url": "https://csslayout.io/",
+      "image": "/assets/images/csslayout.png",
+      "tag": "CSS"
+    },
+    {
+      "title": "Button Hover Effects",
+      "description": "Ejemplos de gradientes, sombras y más para efecto hover en botones.",
+      "url": "https://alvarotrigo.com/blog/best-css-button-hover-effects/",
+      "image": "/assets/images/hover-button-effects.png",
+      "tag": "Animaciones"
+    },
+    {
+      "title": "Hero Patterns",
+      "description": "Colección de patrones CSS y SVG para fondos.",
+      "url": "https://heropatterns.com/",
+      "image": "/assets/images/hero-patterns.png",
+      "tag": "Fondos y Gradientes"
+    },
+    {
+      "title": "CSS3 Patterns Gallery",
+      "description": "Colección de patrones para fondos creados con CSS.",
+      "url": "https://projects.verou.me/css3patterns/",
+      "image": "/assets/images/css3-patterns.png",
+      "tag": "Fondos y Gradientes"
+    },
+    {
+      "title": "Gradihunt",
+      "description": "Miles de gradientes autogenerados.",
+      "url": "https://gradihunt.com/",
+      "image": "/assets/images/gradihunt.png",
+      "tag": "Fondos y Gradientes"
+    },
+    {
+      "title": "Pattern CSS",
+      "description": "Colección de patrones para utilizar en fondos, imágenes y más.",
+      "url": "https://bansal.io/pattern-css",
+      "image": "/assets/images/pattern-css.png",
+      "tag": "Fondos y Gradientes"
+    },
+    {
+      "title": "Blob Animation",
+      "description": "Generador de blob animados.",
+      "url": "https://blobanimation.com/",
+      "image": "/assets/images/blob-animation.png",
+      "tag": "SVG"
+    },
+    {
+      "title": "Google Fonts",
+      "description": "Gran biblioteca de tipografías.",
+      "url": "https://fonts.google.com/",
+      "image": "/assets/images/google-fonts.png",
+      "tag": "Tipografías"
+    },
+    {
+      "title": "Underline Effects",
+      "description": "Ejemplos hover con underline para enlaces.",
+      "url": "https://dev.to/afif/100-underline-overlay-animation-the-ultimate-css-collection-4p40",
+      "image": "/assets/images/underline-effects.png",
+      "tag": "Animaciones"
+    },
+    {
+      "title": "Coolors",
+      "description": "Creación de esquemas de colores.",
+      "url": "https://coolors.co/",
+      "image": "/assets/images/coolors.png",
+      "tag": "Colores"
+    },
+    {
+      "title": "Pigment",
+      "description": "Generación de paletas de colores.",
+      "url": "https://pigment.shapefactory.co/",
+      "image": "/assets/images/pigment.png",
+      "tag": "Colores"
+    },
+    {
+      "title": "Grabient",
+      "description": "Generador de gradientes para fondos.",
+      "url": "https://www.grabient.com/",
+      "image": "/assets/images/grabient.png",
+      "tag": "Fondos y Gradientes"
+    },
+    {
+      "title": "My Brand New Logo",
+      "description": "Paleta de colores CSS para combinaciones de colores y elementos UI.",
+      "url": "https://mybrandnewlogo.com/es/generador-de-paleta-de-colores",
+      "image": "/assets/images/my-brand-new-logo.png",
+      "tag": "Colores"
+    },
+    {
+      "title": "CSS Shadow Gradients",
+      "description": "Generador de sombras con gradientes para elementos.",
+      "url": "https://alvarotrigo.com/shadow-gradients/",
+      "image": "/assets/images/css-shadow-gradients.png",
+      "tag": "Sombras"
+    },
+    {
+      "title": "CSS Specificity Calculator",
+      "description": "Calculadora online sobre la especificidad en CSS.",
+      "url": "https://polypane.app/css-specificity-calculator/",
+      "image": "/assets/images/css-specificity-calculator.png",
+      "tag": "CSS"
+    },
+    {
+      "title": "Loaders",
+      "description": "Colección de mútiples spinners.",
+      "url": "https://cssloaders.github.io/",
+      "image": "/assets/images/loaders.png",
+      "tag": "Spinners"
+    },
+    {
+      "title": "SVG Waves",
+      "description": "Generador de waves en formato SVG.",
+      "url": "https://svgwave.in/",
+      "image": "/assets/images/svg-waves.png",
+      "tag": "SVG"
+    },
+    {
+      "title": "MESH-Y",
+      "description": "Generador en gradientes estilos mesh en formato PNG.",
+      "url": "https://meshgradient.in/",
+      "image": "/assets/images/meshy.png",
+      "tag": "Fondos y Gradientes"
+    },
+    {
+      "title": "Animatable",
+      "description": "Ejemplos de animaciones para efecto hover.",
+      "url": "https://projects.verou.me/animatable/",
+      "image": "/assets/images/animatable.png",
+      "tag": "Animaciones"
+    },
+    {
+      "title": "UIverse",
+      "description": "Animaciones para mútiples elementos UI.",
+      "url": "https://uiverse.io/",
+      "image": "/assets/images/uiverse.png",
+      "tag": "Animaciones"
+    },
+    {
+      "title": "Defensive CSS",
+      "description": "Consejos prácticos de diseño y CSS para interfaces.",
+      "url": "https://defensivecss.dev/",
+      "image": "/assets/images/defensive-css.png",
+      "tag": "CSS"
+    },
+    {
+      "title": "Flexbox Patterns",
+      "description": "Ejemplos de interfaces creadas con Flexbox.",
+      "url": "https://flexboxpatterns.com/",
+      "image": "/assets/images/flexbox-patterns.png",
+      "tag": "CSS"
+    },
+    {
+      "title": "Omatsuri",
+      "description": "Diversas herramientas desde compresor hasta fake data.",
+      "url": "https://omatsuri.app/",
+      "image": "/assets/images/omatsuri.png",
+      "tag": "Herramientas"
+    },
+    {
+      "title": "Happy Hues",
+      "description": "Paleta de colores con ejemplos reales de elementos.",
+      "url": "https://www.happyhues.co/",
+      "image": "/assets/images/happy-hues.png",
+      "tag": "Colores"
+    },
+    {
+      "title": "UI Buttons",
+      "description": "Animaciones hover para botones e iconos.",
+      "url": "https://ui-buttons.web.app/",
+      "image": "/assets/images/ui-buttons.png",
+      "tag": "Animaciones"
     }
   ]
 }

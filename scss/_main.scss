@@ -7,7 +7,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border-bottom: 1px solid #64748b;
     padding-bottom: 2rem;
 
     svg {
@@ -57,12 +56,12 @@
       }
 
       &__info {
-        height: 13rem;
+        height: 14rem;
         padding: 2rem;
 
         h2 {
           font-size: 2rem;
-          margin-bottom: 0.5rem;
+          margin-bottom: 1rem;
           color: red;
         }
 
@@ -83,7 +82,7 @@
     justify-content: end;
 
     select {
-      width: 20rem;
+      width: 25rem;
     }
   }
 }

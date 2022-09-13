@@ -32,7 +32,9 @@ async function getTags() {
 
 async function createCards(optionValue) {
   const { data } = await useFetch();
+  console.log('data', data.length);
   const items = data.filter(({ tag }) => tag.toLowerCase() === optionValue);
+  console.log('items', items.length);
 
   contentCards.innerHTML = '';
   if (items.length > 0) {
