@@ -2,12 +2,9 @@
   @extend .container;
 
   &__select {
-    margin-top: 6rem;
+    @extend .flexbox;
+    padding: 6rem 0 2rem 0;
     font-size: 1.6rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 2rem;
 
     svg {
       width: 5rem;

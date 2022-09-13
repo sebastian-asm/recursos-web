@@ -14,6 +14,8 @@ async function app() {
 
   await getTags(); // esperar para obtener un valor en el option del select
   createCards(selectTag.value);
+
+  window.addEventListener('scroll', uiButtonTop);
   selectTag.addEventListener('change', ({ target }) =>
     createCards(target.value)
   );
@@ -42,8 +44,8 @@ async function createCards(optionValue) {
 
   h2.textContent =
     items.length > 1
-      ? `Se encontraron ${items.length} recursos para ${optionValue}`
-      : `Se encontró ${items.length} recurso para ${optionValue}`;
+      ? `Hay ${items.length} recursos disponibles para ${optionValue}`
+      : `Hay ${items.length} recurso disponible para ${optionValue}`;
 
   p.textContent = `De un total de ${data.length} publicados en el sitio.`;
   contentStat.append(h2, p);
@@ -63,4 +65,12 @@ function uiCard(item, index) {
   const clone = templateCards.cloneNode(true);
   fragment.appendChild(clone);
   contentCards.appendChild(fragment);
+}
+
+function uiButtonTop() {
+  const { scrollY } = window;
+  const divButton = d.querySelector('#button-top');
+
+  if (scrollY >= 650) divButton.classList.add('button-top-on');
+  else divButton.classList.remove('button-top-on');
 }

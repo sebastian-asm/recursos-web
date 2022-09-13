@@ -5,4 +5,19 @@
   margin-bottom: 3rem;
   color: $lightColor;
   font-size: $fontMedium;
+
+  small {
+    display: block;
+
+    a {
+      color: $lightColor;
+      font-weight: bold;
+    }
+
+    &:last-child {
+      margin-top: 1rem;
+      color: $lightColorAlt;
+      font-size: $fontBase + 0.2;
+    }
+  }
 }

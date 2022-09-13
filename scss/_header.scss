@@ -3,18 +3,16 @@
   color: $lightColor;
 
   &__navbar {
-    @extend .container;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @extend .container, .flexbox;
     padding-top: 1.5rem;
     font-size: $fontMedium;
 
     svg {
       stroke: $lightColor;
-      width: 4rem;
+      width: 3.5rem;
       height: auto;
       transition: $transition;
+      margin-left: 0.8rem;
 
       &:hover {
         stroke: $lightColorAlt;

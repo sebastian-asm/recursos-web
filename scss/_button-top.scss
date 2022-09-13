@@ -1,5 +1,18 @@
 .button-top {
   position: fixed;
   bottom: 2rem;
+  right: -5.5rem;
+  width: 5.5rem;
+  height: auto;
+  transition: $transition;
+
+  svg {
+    border-radius: 50%;
+    background-color: rgba(25, 69, 72, 0.8);
+    stroke: $lightColorAlt;
+  }
+}
+
+.button-top-on {
   right: 2rem;
 }
