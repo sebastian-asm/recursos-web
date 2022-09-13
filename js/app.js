@@ -45,19 +45,19 @@ async function createCards(optionValue) {
       ? `Se encontraron ${items.length} recursos para ${optionValue}`
       : `Se encontró ${items.length} recurso para ${optionValue}`;
 
-  p.textContent = `De un total de ${data.length} publicados en el sitio`;
+  p.textContent = `De un total de ${data.length} publicados en el sitio.`;
   contentStat.append(h2, p);
 
   items.forEach(uiCard);
 }
 
-function uiCard(item) {
+function uiCard(item, index) {
   const { title, description, image, url } = item;
 
   templateCards.querySelector('a').href = url;
   templateCards.querySelector('img').src = image;
   templateCards.querySelector('img').alt = title;
-  templateCards.querySelector('h3').textContent = title;
+  templateCards.querySelector('h3').textContent = `${index + 1}. ${title}`;
   templateCards.querySelector('p').textContent = description;
 
   const clone = templateCards.cloneNode(true);

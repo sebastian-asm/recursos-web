@@ -21,7 +21,7 @@
     select {
       font-size: 1.6rem;
       border-radius: $borderRadius;
-      padding: 0.8rem;
+      padding: 1rem;
       outline: none;
       width: 100%;
       margin-left: 1rem;
@@ -46,7 +46,7 @@
 
       h2 {
         color: $lightColorAlt;
-        margin-bottom: 0.5rem;
+        margin-bottom: 0.8rem;
       }
 
       p {
@@ -76,12 +76,12 @@
         }
 
         &__info {
-          height: 16rem;
-          padding: 2rem;
+          height: 16.5rem;
+          padding: 1.8rem;
           font-size: $fontMedium;
 
           h3 {
-            margin-bottom: 1.5rem;
+            margin: 0.8rem 0 1.5rem 0;
             color: $lightColorAlt;
           }
 

@@ -202,7 +202,7 @@
     },
     {
       "title": "MESH-Y",
-      "description": "Generador en gradientes estilos mesh en formato PNG.",
+      "description": "Generador de gradientes estilos mesh en formato PNG.",
       "url": "https://meshgradient.in/",
       "image": "/assets/images/meshy.png",
       "tag": "Fondos y Gradientes"
