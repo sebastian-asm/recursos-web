@@ -255,6 +255,13 @@
       "url": "https://ui-buttons.web.app/",
       "image": "/assets/images/ui-buttons.png",
       "tag": "Animaciones"
+    },
+    {
+      "title": "Huemint",
+      "description": "Esquemas de colores generados con Machine Learning.",
+      "url": "https://huemint.com/",
+      "image": "/assets/images/huemint.png",
+      "tag": "Colores"
     }
   ]
 }

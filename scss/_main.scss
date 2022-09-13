@@ -2,7 +2,7 @@
   @extend .container;
 
   &__select {
-    margin: 6rem 0 3rem 0;
+    margin-top: 6rem;
     font-size: 1.6rem;
     display: flex;
     align-items: center;
@@ -10,7 +10,12 @@
     padding-bottom: 2rem;
 
     svg {
-      stroke: $lightColor;
+      width: 5rem;
+      height: auto;
+      stroke: $lightColorAlt;
+      background-color: $bgColorAlt;
+      border-radius: 50%;
+      padding: 0.2rem;
     }
 
     select {
@@ -18,55 +23,71 @@
       border-radius: $borderRadius;
       padding: 0.8rem;
       outline: none;
-      margin-left: 1rem;
       width: 100%;
+      margin-left: 1rem;
+      border: 0.3rem solid $bgColor;
+      background-color: $bgColorAlt;
+      color: $lightColor;
+      transition: $transition;
+
+      &:focus {
+        border: 0.3rem solid $lightColorAlt;
+      }
     }
   }
 
   &__cards {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 4rem;
+    &-stat {
+      font-size: $fontMedium;
+      margin-top: 1rem;
+      margin-bottom: 6rem;
+      border-left: 0.3rem solid $lightColorAlt;
+      padding-left: 2rem;
 
-    .card {
-      border-radius: $borderRadius;
-      overflow: hidden;
-      transition: $transition;
-      border: 0.2rem solid transparent;
-      background-color: $lightColor;
-
-      &:hover {
-        // box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
-        border: 0.2rem solid red;
+      h2 {
+        color: $lightColorAlt;
+        margin-bottom: 0.5rem;
       }
 
-      &__header {
-        position: relative;
+      p {
+        color: $lightColor;
+      }
+    }
 
-        img {
+    &-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 4rem;
+
+      .card {
+        border-radius: $borderRadius;
+        overflow: hidden;
+        transition: $transition;
+        border: 0.3rem solid $bgColor;
+        background-color: $bgColorAlt;
+
+        &:hover {
+          border: 0.3rem solid $lightColorAlt;
+        }
+
+        &__image {
           width: 100%;
           height: auto;
         }
 
-        svg {
-          position: absolute;
-          bottom: 1rem;
-          right: 1rem;
-        }
-      }
+        &__info {
+          height: 16rem;
+          padding: 2rem;
+          font-size: $fontMedium;
 
-      &__info {
-        height: 14rem;
-        padding: 2rem;
+          h3 {
+            margin-bottom: 1.5rem;
+            color: $lightColorAlt;
+          }
 
-        h2 {
-          font-size: 2rem;
-          margin-bottom: 1rem;
-          color: red;
-        }
-
-        p {
-          font-size: 1.6rem;
+          p {
+            color: $lightColor;
+          }
         }
       }
     }
@@ -74,12 +95,16 @@
 }
 
 @media (min-width: $bpSmall) {
-  .content__cards {
+  .content__cards-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 
   .content__select {
     justify-content: end;
+
+    svg {
+      width: 4rem;
+    }
 
     select {
       width: 25rem;
@@ -88,7 +113,7 @@
 }
 
 @media (min-width: $bpLarge) {
-  .content__cards {
+  .content__cards-grid {
     grid-template-columns: repeat(3, 1fr);
   }
 }

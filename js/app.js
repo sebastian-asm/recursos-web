@@ -5,6 +5,7 @@ const selectTag = d.querySelector('#select-tag');
 const templateCards = d.querySelector('#template-cards').content;
 const fragment = d.createDocumentFragment();
 const contentCards = d.querySelector('#content-cards');
+const contentStat = d.querySelector('#content-stat');
 
 d.addEventListener('DOMContentLoaded', app);
 
@@ -24,26 +25,30 @@ async function getTags() {
 
   tagsOrder.forEach((item) => {
     const option = d.createElement('option');
-    option.value = item.toLowerCase();
+    option.value = item;
     option.textContent = item;
     selectTag.appendChild(option);
   });
 }
 
 async function createCards(optionValue) {
-  const { data } = await useFetch();
-  console.log('data', data.length);
-  const items = data.filter(({ tag }) => tag.toLowerCase() === optionValue);
-  console.log('items', items.length);
-
+  const h2 = d.createElement('h2');
+  const p = d.createElement('p');
   contentCards.innerHTML = '';
-  if (items.length > 0) {
-    items.forEach(uiCard);
-  } else {
-    const h3 = d.createElement('h3');
-    h3.textContent = 'Aún no hay recursos para este filtro.';
-    contentCards.appendChild(h3);
-  }
+  contentStat.innerHTML = '';
+
+  const { data } = await useFetch();
+  const items = data.filter(({ tag }) => tag === optionValue);
+
+  h2.textContent =
+    items.length > 1
+      ? `Se encontraron ${items.length} recursos para ${optionValue}`
+      : `Se encontró ${items.length} recurso para ${optionValue}`;
+
+  p.textContent = `De un total de ${data.length} publicados en el sitio`;
+  contentStat.append(h2, p);
+
+  items.forEach(uiCard);
 }
 
 function uiCard(item) {
@@ -52,7 +57,7 @@ function uiCard(item) {
   templateCards.querySelector('a').href = url;
   templateCards.querySelector('img').src = image;
   templateCards.querySelector('img').alt = title;
-  templateCards.querySelector('h2').textContent = title;
+  templateCards.querySelector('h3').textContent = title;
   templateCards.querySelector('p').textContent = description;
 
   const clone = templateCards.cloneNode(true);

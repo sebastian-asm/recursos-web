@@ -1,14 +1,13 @@
 // colors
-$bgColor: #1e293b;
+$bgColor: #021b24;
+$bgColorAlt: #194548;
 $lightColor: #f8fafc;
-$primaryColor: #fdba74;
-$secondaryColor: #f87171;
+$lightColorAlt: #a4e28c;
 
 // fonts
 $fontBase: 1rem;
-$fontMedium: $fontBase + 0.6;
-$fontLarge: $fontBase + 3;
-$fontExtraLarge: $fontBase + 4;
+$fontMedium: $fontBase + 0.8;
+$fontLarge: $fontBase + 4;
 
 // utils
 $transition: all 0.3s;

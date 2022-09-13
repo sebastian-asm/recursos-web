@@ -1,4 +1,8 @@
 .footer {
+  @extend .container;
   text-align: center;
-  margin: 5rem 0 3rem 0;
+  margin-top: 6rem;
+  margin-bottom: 3rem;
+  color: $lightColor;
+  font-size: $fontMedium;
 }
