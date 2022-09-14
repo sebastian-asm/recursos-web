@@ -262,6 +262,34 @@
       "url": "https://huemint.com/",
       "image": "/assets/images/huemint.png",
       "tag": "Colores"
+    },
+    {
+      "title": "AnimatiSS",
+      "description": "Colección de animaciones para tu proyecto web.",
+      "url": "https://xsgames.co/animatiss/",
+      "image": "/assets/images/animatiss.png",
+      "tag": "Animaciones"
+    },
+    {
+      "title": "Fontjoy",
+      "description": "Generador de combinaciones de tipografías.",
+      "url": "https://fontjoy.com/",
+      "image": "/assets/images/fontjoy.png",
+      "tag": "Tipografías"
+    },
+    {
+      "title": "Gradientos",
+      "description": "Ejemplos de gradientes aplicados a mútiples elementos UI.",
+      "url": "https://www.gradientos.app/",
+      "image": "/assets/images/gradientos.png",
+      "tag": "Fondos y Gradientes"
+    },
+    {
+      "title": "WebGradients",
+      "description": "180 gradientes para descargar en CSS o PNG.",
+      "url": "https://webgradients.com/",
+      "image": "/assets/images/webgradients.png",
+      "tag": "Fondos y Gradientes"
     }
   ]
 }
