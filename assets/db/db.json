@@ -333,6 +333,27 @@
       "url": "https://www.flaticon.es/",
       "image": "/assets/images/flaticon.png",
       "tag": "Imágenes e Iconos"
+    },
+    {
+      "title": "Iconmonstr",
+      "description": "Más de 300 iconos disponibles.",
+      "url": "https://iconmonstr.com/",
+      "image": "/assets/images/iconmonstr.png",
+      "tag": "Imágenes e Iconos"
+    },
+    {
+      "title": "SVG PORN",
+      "description": "Colección de logos en SVG.",
+      "url": "https://svgporn.com/",
+      "image": "/assets/images/svgporn.png",
+      "tag": "Imágenes e Iconos"
+    },
+    {
+      "title": "Icons8",
+      "description": "Iconos, ilustraciones, fotos y más.",
+      "url": "https://icons8.com/",
+      "image": "/assets/images/svgporn.png",
+      "tag": "Imágenes e Iconos"
     }
   ]
 }
