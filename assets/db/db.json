@@ -8,7 +8,8 @@
     "Tipografías",
     "Sombras",
     "Spinners",
-    "Herramientas"
+    "Herramientas",
+    "Imágenes e Iconos"
   ],
   "data": [
     {
@@ -325,6 +326,13 @@
       "url": "https://tinypng.com/",
       "image": "/assets/images/tinypng.png",
       "tag": "Herramientas"
+    },
+    {
+      "title": "Flaticon",
+      "description": "Descarga iconos en mútiples formatos.",
+      "url": "https://www.flaticon.es/",
+      "image": "/assets/images/flaticon.png",
+      "tag": "Imágenes e Iconos"
     }
   ]
 }

@@ -29,22 +29,22 @@
     font-size: 1.6rem;
 
     svg {
-      width: 5rem;
-      height: auto;
+      max-width: 4.8rem;
+      height: 4.8rem;
       stroke: $lightColorAlt;
       background-color: $bgColorAlt;
-      border-radius: 50%;
+      border-radius: $borderRadius 0 0 $borderRadius;
       padding: 0.2rem;
+      margin-top: 5px; // fixed
     }
 
     select {
       font-size: 1.6rem;
-      border-radius: $borderRadius;
+      border-radius: 0 $borderRadius $borderRadius 0;
       padding: 1rem;
       outline: none;
       width: 100%;
-      margin-left: 1rem;
-      border: 0.3rem solid $bgColor;
+      border: 0.3rem solid transparent;
       background-color: $bgColorAlt;
       color: $lightColor;
       transition: $transition;
