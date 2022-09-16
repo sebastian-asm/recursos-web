@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://recursos-web.vercel.app/sitemap.xml
