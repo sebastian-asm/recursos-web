@@ -1,9 +1,10 @@
+import uiButtonTop from './ui/buttonTop.js';
+import uiCard from './ui/card.js';
+import uiLoading from './ui/loading.js';
 import useFetch from './useFetch.js';
 
 const d = document;
 const selectTag = d.querySelector('#select-tag');
-const templateCards = d.querySelector('#template-cards').content;
-const fragment = d.createDocumentFragment();
 const contentCards = d.querySelector('#content-cards');
 const contentStat = d.querySelector('#content-stat');
 
@@ -39,8 +40,10 @@ async function createCards(optionValue) {
   contentCards.innerHTML = '';
   contentStat.innerHTML = '';
 
+  uiLoading(true);
   const { data } = await useFetch();
   const items = data.filter(({ tag }) => tag === optionValue);
+  uiLoading(false);
 
   h2.textContent =
     items.length > 1
@@ -51,26 +54,4 @@ async function createCards(optionValue) {
   contentStat.append(h2, p);
 
   items.forEach(uiCard);
-}
-
-function uiCard(item, index) {
-  const { title, description, image, url } = item;
-
-  templateCards.querySelector('a').href = url;
-  templateCards.querySelector('img').src = image;
-  templateCards.querySelector('img').alt = title;
-  templateCards.querySelector('h3').textContent = `${index + 1}. ${title}`;
-  templateCards.querySelector('p').textContent = description;
-
-  const clone = templateCards.cloneNode(true);
-  fragment.appendChild(clone);
-  contentCards.appendChild(fragment);
-}
-
-function uiButtonTop() {
-  const { scrollY } = window;
-  const divButton = d.querySelector('#button-top');
-
-  if (scrollY >= 650) divButton.classList.add('button-top-on');
-  else divButton.classList.remove('button-top-on');
 }

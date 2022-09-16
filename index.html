@@ -81,14 +81,16 @@
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
             stroke-width="1.5"
+            stroke="currentColor"
             fill="none"
             stroke-linecap="round"
             stroke-linejoin="round"
           >
             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-            <circle cx="12" cy="12" r="9" />
-            <line x1="12" y1="8" x2="12.01" y2="8" />
-            <polyline points="11 12 12 12 12 16 13 16" />
+            <circle cx="12" cy="12" r="2" />
+            <path
+              d="M3 12h4m5 -9v4m5 5h4m-9 5v4m-4.5 -13.5l1 1m8 -1l-1 1m0 7l1 1m-8 -1l-1 1"
+            />
           </svg>
           <p>Publicando periódicamente nuevos recursos.</p>
         </div>
@@ -96,21 +98,6 @@
 
       <section class="content">
         <div class="content__select">
-          <label for="select-tag">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-              <path
-                d="M5.5 5h13a1 1 0 0 1 .5 1.5l-5 5.5l0 7l-4 -3l0 -4l-5 -5.5a1 1 0 0 1 .5 -1.5"
-              />
-            </svg>
-          </label>
           <select id="select-tag"></select>
         </div>
         <div class="content__cards">
@@ -155,7 +142,7 @@
     <template id="template-cards">
       <a href="" target="_blank" rel="noopener noreferrer">
         <article class="card">
-          <img src="" alt="" class="card__image" />
+          <img src="" alt="" class="card__image" width="320" height="180" />
           <div class="card__info">
             <h3></h3>
             <p></p>

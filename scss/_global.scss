@@ -34,3 +34,10 @@ a {
   justify-content: space-between;
   align-items: center;
 }
+
+.loading {
+  color: $lightColorAlt;
+  font-size: $fontMedium;
+  text-align: center;
+  font-weight: bold;
+}
