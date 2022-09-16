@@ -9,7 +9,8 @@
     "Sombras",
     "Spinners",
     "Herramientas",
-    "Imágenes e Iconos"
+    "Imágenes e Iconos",
+    "JavaScript"
   ],
   "data": [
     {
@@ -352,8 +353,64 @@
       "title": "Icons8",
       "description": "Iconos, ilustraciones, fotos y más.",
       "url": "https://icons8.com/",
-      "image": "/assets/images/svgporn.png",
+      "image": "/assets/images/icons8.png",
       "tag": "Imágenes e Iconos"
+    },
+    {
+      "title": "Cool Text Generator",
+      "description": "Generador de texto con mútiples diseños.",
+      "url": "https://maketext.io/",
+      "image": "/assets/images/maketext.png",
+      "tag": "Tipografías"
+    },
+    {
+      "title": "IconScout",
+      "description": "Gran cantidad de iconos con diferentes estilos.",
+      "url": "https://iconscout.com/unicons",
+      "image": "/assets/images/iconscout.png",
+      "tag": "Imágenes e Iconos"
+    },
+    {
+      "title": "Storyset",
+      "description": "Colección de ilustraciones personalizables.",
+      "url": "https://storyset.com/",
+      "image": "/assets/images/storyset.png",
+      "tag": "Imágenes e Iconos"
+    },
+    {
+      "title": "Tabler Icons",
+      "description": "Colección de iconos en SVG para copiar y pegar.",
+      "url": "https://tablericons.com/",
+      "image": "/assets/images/tabler-icons.png",
+      "tag": "Imágenes e Iconos"
+    },
+    {
+      "title": "Unsplash",
+      "description": "Gran colección de imágenes.",
+      "url": "https://unsplash.com/es",
+      "image": "/assets/images/unsplash.png",
+      "tag": "Imágenes e Iconos"
+    },
+    {
+      "title": "Pixabay",
+      "description": "Gran colección de imágenes libres de derecho.",
+      "url": "https://pixabay.com/es/",
+      "image": "/assets/images/pixabay.png",
+      "tag": "Imágenes e Iconos"
+    },
+    {
+      "title": "Streamline",
+      "description": "Más de 140k iconos e ilustraciones.",
+      "url": "https://www.streamlinehq.com/",
+      "image": "/assets/images/streamline.png",
+      "tag": "Imágenes e Iconos"
+    },
+    {
+      "title": "JavaScript Info",
+      "description": "Tutorial en español de JavaScript moderno.",
+      "url": "https://es.javascript.info/",
+      "image": "/assets/images/js-info.png",
+      "tag": "JavaScript"
     }
   ]
 }
