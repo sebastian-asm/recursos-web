@@ -290,6 +290,41 @@
       "url": "https://webgradients.com/",
       "image": "/assets/images/webgradients.png",
       "tag": "Fondos y Gradientes"
+    },
+    {
+      "title": "CSS Grid Cheat Sheet",
+      "description": "Guía visual de CSS Grid.",
+      "url": "https://alialaa.github.io/css-grid-cheat-sheet/",
+      "image": "/assets/images/css-grid-cheat.png",
+      "tag": "CSS"
+    },
+    {
+      "title": "CSSFX",
+      "description": "Colección de animaciones fluidas y faciles de usar.",
+      "url": "https://cssfx.netlify.app/",
+      "image": "/assets/images/cssfx.png",
+      "tag": "Animaciones"
+    },
+    {
+      "title": "Button Buddy",
+      "description": "Generador de boton con colores accesibles.",
+      "url": "https://buttonbuddy.dev/",
+      "image": "/assets/images/button-buddy.png",
+      "tag": "Colores"
+    },
+    {
+      "title": "Interactive Box Model",
+      "description": "Diagrama interactivo del Box Model.",
+      "url": "https://codepen.io/carolineartz/pen/ogVXZj",
+      "image": "/assets/images/interactive-boxmodel.png",
+      "tag": "CSS"
+    },
+    {
+      "title": "Tiny PNG",
+      "description": "Compresor online de imágenes WEBP, PNG y JPG.",
+      "url": "https://tinypng.com/",
+      "image": "/assets/images/tinypng.png",
+      "tag": "Herramientas"
     }
   ]
 }
