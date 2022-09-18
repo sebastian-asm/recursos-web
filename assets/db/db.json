@@ -11,7 +11,8 @@
     "Herramientas",
     "Imágenes e Iconos",
     "JavaScript",
-    "HTML"
+    "HTML",
+    "Hosting"
   ],
   "data": [
     {
@@ -93,7 +94,7 @@
     },
     {
       "title": "Button Hover Effects",
-      "description": "Ejemplos de gradientes, sombras y más para efecto hover en botones.",
+      "description": "Gradientes, sombras y más para efecto hover en botones.",
       "url": "https://alvarotrigo.com/blog/best-css-button-hover-effects/",
       "image": "/assets/images/hover-button-effects.png",
       "tag": "Animaciones"
@@ -510,6 +511,20 @@
       "url": "https://zerossl.com/",
       "image": "/assets/images/zerossl.png",
       "tag": "Herramientas"
+    },
+    {
+      "title": "Webhost",
+      "description": "Hosting con PHP, MySQL y CPanel.",
+      "url": "https://www.000webhost.com/",
+      "image": "/assets/images/webhost.png",
+      "tag": "Hosting"
+    },
+    {
+      "title": "Infinity Free",
+      "description": "Hosting con PHP, MySQL, SSL y sin publicidad.",
+      "url": "https://www.infinityfree.net/",
+      "image": "/assets/images/infinityfree.png",
+      "tag": "Hosting"
     }
   ]
 }
