@@ -10,7 +10,8 @@
     "Spinners",
     "Herramientas",
     "Imágenes e Iconos",
-    "JavaScript"
+    "JavaScript",
+    "HTML"
   ],
   "data": [
     {
@@ -411,6 +412,104 @@
       "url": "https://es.javascript.info/",
       "image": "/assets/images/js-info.png",
       "tag": "JavaScript"
+    },
+    {
+      "title": "System UIcons",
+      "description": "Iconos simples pero consistentes en su diseño.",
+      "url": "https://www.systemuicons.com/",
+      "image": "/assets/images/system-uicons.png",
+      "tag": "Imágenes e Iconos"
+    },
+    {
+      "title": "JAM Icons",
+      "description": "Colección de iconos para descargar en SVG o código.",
+      "url": "https://jam-icons.com/",
+      "image": "/assets/images/jam-icons.png",
+      "tag": "Imágenes e Iconos"
+    },
+    {
+      "title": "Smashicons",
+      "description": "Colección de iconos empaquedos por temática.",
+      "url": "https://smashicons.com/",
+      "image": "/assets/images/smashicons.png",
+      "tag": "Imágenes e Iconos"
+    },
+    {
+      "title": "Feather Icons",
+      "description": "Iconos para personalizar y descargar en SVG.",
+      "url": "https://feathericons.com/",
+      "image": "/assets/images/feather-icons.png",
+      "tag": "Imágenes e Iconos"
+    },
+    {
+      "title": "UseAnimations",
+      "description": "Iconos animados para mútiples frameworks JS.",
+      "url": "https://useanimations.com/index.html",
+      "image": "/assets/images/useanimations.png",
+      "tag": "Imágenes e Iconos"
+    },
+    {
+      "title": "Lordicon",
+      "description": "Iconos animados cuidadosamente elaborados.",
+      "url": "https://lordicon.com/",
+      "image": "/assets/images/lordicon.png",
+      "tag": "Imágenes e Iconos"
+    },
+    {
+      "title": "Icônes",
+      "description": "Iconos en múltiples formatos y frameworks.",
+      "url": "https://icones.js.org/",
+      "image": "/assets/images/icones.png",
+      "tag": "Imágenes e Iconos"
+    },
+    {
+      "title": "HTML HEAD",
+      "description": "Guía sobre los elementos dentro de head.",
+      "url": "https://htmlhead.dev/",
+      "image": "/assets/images/htmlhead.png",
+      "tag": "HTML"
+    },
+    {
+      "title": "Removebg",
+      "description": "Quita el fondo a las imágenes.",
+      "url": "https://www.remove.bg/es",
+      "image": "/assets/images/removebg.png",
+      "tag": "Herramientas"
+    },
+    {
+      "title": "Periodic Table HTML",
+      "description": "Etiquetas HTML agrupadas por categoría.",
+      "url": "https://madebymike.github.io/html5-periodic-table/",
+      "image": "/assets/images/html-elements.png",
+      "tag": "HTML"
+    },
+    {
+      "title": "Optimize Images",
+      "description": "Optimizar y convertir imágenes a otros formatos.",
+      "url": "https://www.optimizeimages.com/",
+      "image": "/assets/images/optimize-images.png",
+      "tag": "Herramientas"
+    },
+    {
+      "title": "All The Tags",
+      "description": "Descripción de todas las etiquetas HTML.",
+      "url": "https://allthetags.com/",
+      "image": "/assets/images/all-tags.png",
+      "tag": "HTML"
+    },
+    {
+      "title": "SSL For Free",
+      "description": "Generador de certificado SSL en minutos.",
+      "url": "https://www.sslforfree.com/",
+      "image": "/assets/images/sslfree.png",
+      "tag": "Herramientas"
+    },
+    {
+      "title": "ZeroSSL",
+      "description": "Obtener hasta 3 certificados SSL por cuenta.",
+      "url": "https://zerossl.com/",
+      "image": "/assets/images/zerossl.png",
+      "tag": "Herramientas"
     }
   ]
 }
