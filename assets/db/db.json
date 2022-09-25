@@ -12,7 +12,9 @@
     "Imágenes e Iconos",
     "JavaScript",
     "HTML",
-    "Hosting"
+    "Hosting",
+    "Markdown",
+    "Base de Datos"
   ],
   "data": [
     {
@@ -499,13 +501,6 @@
       "tag": "HTML"
     },
     {
-      "title": "SSL For Free",
-      "description": "Generador de certificado SSL en minutos.",
-      "url": "https://www.sslforfree.com/",
-      "image": "/assets/images/sslfree.png",
-      "tag": "Herramientas"
-    },
-    {
       "title": "ZeroSSL",
       "description": "Obtener hasta 3 certificados SSL por cuenta.",
       "url": "https://zerossl.com/",
@@ -524,6 +519,69 @@
       "description": "Hosting con PHP, MySQL, SSL y sin publicidad.",
       "url": "https://www.infinityfree.net/",
       "image": "/assets/images/infinityfree.png",
+      "tag": "Hosting"
+    },
+    {
+      "title": "PageSpeed Insights",
+      "description": "Verificar el estado de performance del sitio.",
+      "url": "https://pagespeed.web.dev/",
+      "image": "/assets/images/pagespeed.png",
+      "tag": "Herramientas"
+    },
+    {
+      "title": "Mobile Friendly",
+      "description": "Comprobar si tu web está optimizada para móviles.",
+      "url": "https://search.google.com/test/mobile-friendly",
+      "image": "/assets/images/mobile-friendly.png",
+      "tag": "Herramientas"
+    },
+    {
+      "title": "Markdown Cheat Sheet",
+      "description": "Completa guía sobre Markdown.",
+      "url": "https://joedicastro.com/pages/markdown.html",
+      "image": "/assets/images/markdown.png",
+      "tag": "Markdown"
+    },
+    {
+      "title": "GT Metrix",
+      "description": "Descubrir oportunidades de optimización.",
+      "url": "https://gtmetrix.com/",
+      "image": "/assets/images/gtmetrix.png",
+      "tag": "Herramientas"
+    },
+    {
+      "title": "PlanetScale",
+      "description": "Plataforma de base de datos MySQL.",
+      "url": "https://planetscale.com/",
+      "image": "/assets/images/planetscale.png",
+      "tag": "Base de Datos"
+    },
+    {
+      "title": "Free SSL Generator",
+      "description": "Generador de certificados SSL.",
+      "url": "https://punchsalad.com/ssl-certificate-generator/",
+      "image": "/assets/images/ssl-generator.png",
+      "tag": "Herramientas"
+    },
+    {
+      "title": "SEOptimer",
+      "description": "Herramienta de informes SEO.",
+      "url": "https://www.seoptimer.com/es/",
+      "image": "/assets/images/seoptimer.png",
+      "tag": "Herramientas"
+    },
+    {
+      "title": "Vercel",
+      "description": "Subida de sitios a través de Github.",
+      "url": "https://vercel.com/",
+      "image": "/assets/images/vercel.png",
+      "tag": "Hosting"
+    },
+    {
+      "title": "Netlify",
+      "description": "Subida de sitios a través de Github.",
+      "url": "https://www.netlify.com/",
+      "image": "/assets/images/netlify.png",
       "tag": "Hosting"
     }
   ]
