@@ -583,6 +583,62 @@
       "url": "https://www.netlify.com/",
       "image": "/assets/images/netlify.png",
       "tag": "Hosting"
+    },
+    {
+      "title": "Yellow Lab Tools",
+      "description": "Ayuda para acelerar sitios web.",
+      "url": "https://yellowlab.tools/",
+      "image": "/assets/images/yellowlab.png",
+      "tag": "Herramientas"
+    },
+    {
+      "title": "HTML Entities",
+      "description": "Símbolos y entidades para HTML.",
+      "url": "https://www.toptal.com/designers/htmlarrows/arrows/",
+      "image": "/assets/images/html-symbols.png",
+      "tag": "HTML"
+    },
+    {
+      "title": "Open Graph Protocol",
+      "description": "Optimizar head para compartir sitio.",
+      "url": "https://ogp.me/",
+      "image": "/assets/images/opengraph.png",
+      "tag": "HTML"
+    },
+    {
+      "title": "TinyWow",
+      "description": "Mútiples herramientas para archivos.",
+      "url": "https://tinywow.com/",
+      "image": "/assets/images/tinywow.png",
+      "tag": "Herramientas"
+    },
+    {
+      "title": "Formspree",
+      "description": "Envío de formularios de contacto (sin backend).",
+      "url": "https://formspree.io/",
+      "image": "/assets/images/formspree.png",
+      "tag": "Herramientas"
+    },
+    {
+      "title": "FormSubmit",
+      "description": "Envío de formularios de contacto (sin backend).",
+      "url": "https://formsubmit.co/",
+      "image": "/assets/images/formsubmit.png",
+      "tag": "Herramientas"
+    },
+    {
+      "title": "API Layer",
+      "description": "Colección de múltiples APIs.",
+      "url": "https://apilayer.com/",
+      "image": "/assets/images/api-layer.png",
+      "tag": "Herramientas"
+    },
+    {
+      "title": "Code Generators",
+      "description": "Generador de códigos CSS y HTMl.",
+      "url": "https://webcode.tools/",
+      "image": "/assets/images/code-tools.png",
+      "tag": "Herramientas"
     }
   ]
 }
