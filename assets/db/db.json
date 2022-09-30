@@ -1,12 +1,11 @@
 {
   "tags": [
     "CSS",
-    "Colores",
+    "Colores y Sombras",
     "SVG",
     "Animaciones",
     "Fondos y Gradientes",
     "Tipografías",
-    "Sombras",
     "Spinners",
     "Herramientas",
     "Imágenes e Iconos",
@@ -14,7 +13,8 @@
     "HTML",
     "Hosting",
     "Markdown",
-    "Base de Datos"
+    "Base de Datos",
+    "Plantillas"
   ],
   "data": [
     {
@@ -29,7 +29,7 @@
       "description": "Colección de paletas de colores.",
       "url": "https://colorhunt.co/",
       "image": "/assets/images/colorhunt.png",
-      "tag": "Colores"
+      "tag": "Colores y Sombras"
     },
     {
       "title": "Fffuel",
@@ -78,7 +78,7 @@
       "description": "Herramienta para la definición de colores.",
       "url": "https://hue.tools/?format=hex",
       "image": "/assets/images/hue.png",
-      "tag": "Colores"
+      "tag": "Colores y Sombras"
     },
     {
       "title": "Get Waves",
@@ -155,14 +155,14 @@
       "description": "Creación de esquemas de colores.",
       "url": "https://coolors.co/",
       "image": "/assets/images/coolors.png",
-      "tag": "Colores"
+      "tag": "Colores y Sombras"
     },
     {
       "title": "Pigment",
       "description": "Generación de paletas de colores.",
       "url": "https://pigment.shapefactory.co/",
       "image": "/assets/images/pigment.png",
-      "tag": "Colores"
+      "tag": "Colores y Sombras"
     },
     {
       "title": "Grabient",
@@ -176,14 +176,14 @@
       "description": "Paleta de colores CSS para combinaciones de colores y elementos UI.",
       "url": "https://mybrandnewlogo.com/es/generador-de-paleta-de-colores",
       "image": "/assets/images/my-brand-new-logo.png",
-      "tag": "Colores"
+      "tag": "Colores y Sombras"
     },
     {
       "title": "CSS Shadow Gradients",
       "description": "Generador de sombras con gradientes para elementos.",
       "url": "https://alvarotrigo.com/shadow-gradients/",
       "image": "/assets/images/css-shadow-gradients.png",
-      "tag": "Sombras"
+      "tag": "Colores y Sombras"
     },
     {
       "title": "CSS Specificity Calculator",
@@ -253,7 +253,7 @@
       "description": "Paleta de colores con ejemplos reales de elementos.",
       "url": "https://www.happyhues.co/",
       "image": "/assets/images/happy-hues.png",
-      "tag": "Colores"
+      "tag": "Colores y Sombras"
     },
     {
       "title": "UI Buttons",
@@ -267,7 +267,7 @@
       "description": "Esquemas de colores generados con Machine Learning.",
       "url": "https://huemint.com/",
       "image": "/assets/images/huemint.png",
-      "tag": "Colores"
+      "tag": "Colores y Sombras"
     },
     {
       "title": "AnimatiSS",
@@ -316,7 +316,7 @@
       "description": "Generador de boton con colores accesibles.",
       "url": "https://buttonbuddy.dev/",
       "image": "/assets/images/button-buddy.png",
-      "tag": "Colores"
+      "tag": "Colores y Sombras"
     },
     {
       "title": "Interactive Box Model",
@@ -635,10 +635,129 @@
     },
     {
       "title": "Code Generators",
-      "description": "Generador de códigos CSS y HTMl.",
+      "description": "Generador de códigos CSS y HTML.",
       "url": "https://webcode.tools/",
       "image": "/assets/images/code-tools.png",
       "tag": "Herramientas"
+    },
+    {
+      "title": "Mockaroo",
+      "description": "Generador de fake data en SQL y más.",
+      "url": "https://mockaroo.com/",
+      "image": "/assets/images/mockaroo.png",
+      "tag": "Base de Datos"
+    },
+    {
+      "title": "FileZilla",
+      "description": "Cliente para protocolo FTP.",
+      "url": "https://filezilla-project.org/",
+      "image": "/assets/images/filezilla.png",
+      "tag": "Hosting"
+    },
+    {
+      "title": "Can I Use",
+      "description": "Tecnología soportada por los navegadores.",
+      "url": "https://caniuse.com/",
+      "image": "/assets/images/caniuse.png",
+      "tag": "Herramientas"
+    },
+    {
+      "title": "Lorem Picsum",
+      "description": "Generar imágenes aleatoriamente.",
+      "url": "https://picsum.photos/",
+      "image": "/assets/images/picsum-photos.png",
+      "tag": "Imágenes e Iconos"
+    },
+    {
+      "title": "Pxfuel",
+      "description": "Gran colección de fotos para cualquier uso.",
+      "url": "https://www.pxfuel.com/",
+      "image": "/assets/images/pxfuel.png",
+      "tag": "Imágenes e Iconos"
+    },
+    {
+      "title": "Font Awesome",
+      "description": "La colección más popular de iconos.",
+      "url": "https://fontawesome.com/",
+      "image": "/assets/images/fontawesome.png",
+      "tag": "Imágenes e Iconos"
+    },
+    {
+      "title": "BGJar",
+      "description": "Mútiples recursos en formato SVG.",
+      "url": "https://bgjar.com/",
+      "image": "/assets/images/bgjar.png",
+      "tag": "SVG"
+    },
+    {
+      "title": "CSS Reference",
+      "description": "Guía visual sobre CSS.",
+      "url": "https://cssreference.io/",
+      "image": "/assets/images/cssreference.png",
+      "tag": "CSS"
+    },
+    {
+      "title": "Simple Icons",
+      "description": "Iconos de las marcas más populares.",
+      "url": "https://simpleicons.org/",
+      "image": "/assets/images/simpleicons.png",
+      "tag": "Imágenes e Iconos"
+    },
+    {
+      "title": "Grid By Example",
+      "description": "Mútiples diseños creados con Grid.",
+      "url": "https://gridbyexample.com/",
+      "image": "/assets/images/gridexample.png",
+      "tag": "CSS"
+    },
+    {
+      "title": "Squoosh",
+      "description": "Comprimir y comprarar imágenes.",
+      "url": "https://squoosh.app/",
+      "image": "/assets/images/squoosh.png",
+      "tag": "Herramientas"
+    },
+    {
+      "title": "Compressor",
+      "description": "Compresor de imágenes rápido y eficiente.",
+      "url": "https://compressor.io/",
+      "image": "/assets/images/compressor.png",
+      "tag": "Herramientas"
+    },
+    {
+      "title": "Free CSS",
+      "description": "Colección de +3000 plantillas en CSS.",
+      "url": "https://www.free-css.com/",
+      "image": "/assets/images/freecss.png",
+      "tag": "Plantillas"
+    },
+    {
+      "title": "DrawKit",
+      "description": "Ilustraciones e iconos vectoriales.",
+      "url": "https://drawkit.com/",
+      "image": "/assets/images/drawkit.png",
+      "tag": "Imágenes e Iconos"
+    },
+    {
+      "title": "unDraw",
+      "description": "Ilustraciones ajustadas a tu necesidad.",
+      "url": "https://undraw.co/illustrations",
+      "image": "/assets/images/undraw.png",
+      "tag": "Imágenes e Iconos"
+    },
+    {
+      "title": "CSS GG",
+      "description": "Iconos para UI en diferentes formatos.",
+      "url": "https://css.gg/",
+      "image": "/assets/images/cssgg.png",
+      "tag": "Imágenes e Iconos"
+    },
+    {
+      "title": "Heroicons",
+      "description": "Iconos vectoriales diseñados a mano.",
+      "url": "https://heroicons.com/",
+      "image": "/assets/images/heroicons.png",
+      "tag": "Imágenes e Iconos"
     }
   ]
 }
