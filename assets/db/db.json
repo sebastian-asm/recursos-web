@@ -758,6 +758,76 @@
       "url": "https://heroicons.com/",
       "image": "/assets/images/heroicons.png",
       "tag": "Imágenes e Iconos"
+    },
+    {
+      "title": "Railway",
+      "description": "Lanzar apps de mútiples stack y base de datos.",
+      "url": "https://railway.app/",
+      "image": "/assets/images/railway.png",
+      "tag": "Hosting"
+    },
+    {
+      "title": "Render",
+      "description": "Lanzar apps de mútiples stack y base de datos.",
+      "url": "https://render.com/",
+      "image": "/assets/images/render.png",
+      "tag": "Hosting"
+    },
+    {
+      "title": "Fly",
+      "description": "Lanzar apps de mútiples stack y base de datos.",
+      "url": "https://fly.io/",
+      "image": "/assets/images/fly.png",
+      "tag": "Hosting"
+    },
+    {
+      "title": "Cloudinary",
+      "description": "Servidor de imágenes y videos.",
+      "url": "https://cloudinary.com/",
+      "image": "/assets/images/cloudinary.png",
+      "tag": "Hosting"
+    },
+    {
+      "title": "MongoDB",
+      "description": "Servicio de base de datos NoSQL.",
+      "url": "https://www.mongodb.com/es",
+      "image": "/assets/images/mongodb.png",
+      "tag": "Base de Datos"
+    },
+    {
+      "title": "Dafont",
+      "description": "Alternativa a Google Fonts.",
+      "url": "https://www.dafont.com/es/",
+      "image": "/assets/images/dafont.png",
+      "tag": "Tipografías"
+    },
+    {
+      "title": "HTML5 Up",
+      "description": "Elegantes plantillas personalizables.",
+      "url": "https://html5up.net/",
+      "image": "/assets/images/html5up.png",
+      "tag": "Plantillas"
+    },
+    {
+      "title": "HTML Desing",
+      "description": "Plantillas para uso personales o comerciales.",
+      "url": "https://html.design/",
+      "image": "/assets/images/html-design.png",
+      "tag": "Plantillas"
+    },
+    {
+      "title": "Unicode Table",
+      "description": "Listado de carácteres Unicode.",
+      "url": "https://unicode-table.com/es/",
+      "image": "/assets/images/unicode-table.png",
+      "tag": "HTML"
+    },
+    {
+      "title": "JSON Crack",
+      "description": "Visualizador JSON de forma gráfica.",
+      "url": "https://jsoncrack.com/editor",
+      "image": "/assets/images/json-crack.png",
+      "tag": "Herramientas"
     }
   ]
 }
