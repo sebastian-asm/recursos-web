@@ -16,15 +16,15 @@
       max-width: 4rem;
       height: auto;
       margin-right: 2rem;
-      animation: move 1s infinite linear;
+      animation: move 1.5s infinite linear alternate;
     }
 
     @keyframes move {
       from {
-        transform: rotate(0);
+        opacity: 1;
       }
       to {
-        transform: rotate(180deg);
+        opacity: 0.2;
       }
     }
   }

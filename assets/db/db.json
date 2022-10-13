@@ -14,7 +14,8 @@
     "Hosting",
     "Markdown",
     "Base de Datos",
-    "Plantillas"
+    "Plantillas",
+    "APIs"
   ],
   "data": [
     {
@@ -627,11 +628,11 @@
       "tag": "Herramientas"
     },
     {
-      "title": "API Layer",
+      "title": "APILayer",
       "description": "Colección de múltiples APIs.",
       "url": "https://apilayer.com/",
       "image": "/assets/images/api-layer.png",
-      "tag": "Herramientas"
+      "tag": "APIs"
     },
     {
       "title": "Code Generators",
@@ -828,6 +829,34 @@
       "url": "https://jsoncrack.com/editor",
       "image": "/assets/images/json-crack.png",
       "tag": "Herramientas"
+    },
+    {
+      "title": "Transfonter",
+      "description": "Tranformar tipografías a múltipes formatos.",
+      "url": "https://transfonter.org/",
+      "image": "/assets/images/transfonter.png",
+      "tag": "Tipografías"
+    },
+    {
+      "title": "RapidAPI",
+      "description": "Colección de APIs gratuitas y de pago.",
+      "url": "https://rapidapi.com/",
+      "image": "/assets/images/transfonter.png",
+      "tag": "APIs"
+    },
+    {
+      "title": "Iconoir",
+      "description": "Colección de iconos en SVG.",
+      "url": "https://iconoir.com/",
+      "image": "/assets/images/iconoir.png",
+      "tag": "Imágenes e Iconos"
+    },
+    {
+      "title": "Gradient Text Generator",
+      "description": "Generar texto con gradiente.",
+      "url": "https://www.cssgradienttext.com/",
+      "image": "/assets/images/cssgradienttext.png",
+      "tag": "Tipografías"
     }
   ]
 }
