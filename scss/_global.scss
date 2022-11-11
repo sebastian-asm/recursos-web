@@ -52,9 +52,15 @@ a {
   align-items: center;
 }
 
-.loading {
-  color: $lightColorAlt;
-  font-size: $fontMedium;
-  text-align: center;
-  font-weight: bold;
+.fade-in {
+  animation: fadeIn 0.3s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

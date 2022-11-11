@@ -1,0 +1,26 @@
+.loading {
+  text-align: center;
+
+  svg {
+    stroke: $lightColorAlt;
+    animation: animate 1.8s linear infinite;
+    width: 6rem;
+    height: auto;
+  }
+
+  p {
+    font-size: $fontMedium;
+    color: $lightColorAlt;
+    font-weight: bold;
+    margin-top: 0.5rem;
+  }
+}
+
+@keyframes animate {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

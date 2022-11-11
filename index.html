@@ -100,7 +100,7 @@
         <div class="content__select">
           <select id="select-tag"></select>
         </div>
-        <div class="content__cards">
+        <div id="content-data" class="content__cards">
           <div id="content-stat" class="content__cards-stat"></div>
           <div id="content-cards" class="content__cards-grid"></div>
         </div>
@@ -142,7 +142,14 @@
     <template id="template-cards">
       <a href="" target="_blank" rel="noopener noreferrer">
         <article class="card">
-          <img src="" alt="" class="card__image" width="320" height="180" />
+          <img
+            src=""
+            alt=""
+            class="card__image"
+            width="320"
+            height="180"
+            loading="lazy"
+          />
           <div class="card__info">
             <h3></h3>
             <p></p>
@@ -151,6 +158,6 @@
       </a>
     </template>
 
-    <script src="./js/app.js" type="module"></script>
+    <script src="./js/app.js" type="module" defer></script>
   </body>
 </html>

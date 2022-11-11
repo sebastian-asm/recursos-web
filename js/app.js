@@ -7,14 +7,17 @@ const d = document;
 const selectTag = d.querySelector('#select-tag');
 const contentCards = d.querySelector('#content-cards');
 const contentStat = d.querySelector('#content-stat');
+const contentData = d.querySelector('#content-data');
 
 d.addEventListener('DOMContentLoaded', app);
 
 async function app() {
   d.querySelector('#year').textContent = new Date().getFullYear();
 
+  uiLoading(true);
   await getTags(); // esperar para obtener un valor en el option del select
   createCards(selectTag.value);
+  uiLoading(false);
 
   window.addEventListener('scroll', uiButtonTop);
   selectTag.addEventListener('change', ({ target }) =>
@@ -37,14 +40,17 @@ async function getTags() {
 async function createCards(optionValue) {
   const h2 = d.createElement('h2');
   const p = d.createElement('p');
+
   contentCards.innerHTML = '';
   contentStat.innerHTML = '';
+  contentData.classList.remove('fade-in');
 
   uiLoading(true);
   const { data } = await useFetch();
   const items = data.filter(({ tag }) => tag === optionValue);
   uiLoading(false);
 
+  contentData.classList.add('fade-in');
   h2.textContent =
     items.length > 1
       ? `Hay ${items.length} recursos disponibles para ${optionValue}`
