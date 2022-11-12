@@ -112,16 +112,17 @@
 
         &__tags {
           padding: 0 1.8rem;
-          height: 8.5rem;
-          font-size: $fontMedium;
+          height: 7.5rem;
 
           small {
+            font-size: $fontBase;
+            text-transform: uppercase;
             display: inline-block;
             background-color: $bgColor;
             color: $lightColor;
             border-radius: $borderRadius;
-            padding: 0.5rem 1rem;
-            margin: 0.8rem 0.8rem 0 0;
+            padding: 0.6rem 1rem;
+            margin: 0.6rem 0.6rem 0 0;
 
             &:last-child {
               margin-right: 0;

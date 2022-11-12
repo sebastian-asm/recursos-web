@@ -12,6 +12,12 @@
     a {
       color: $lightColor;
       font-weight: bold;
+      border-bottom: 1px dotted transparent;
+      transition: $transition;
+
+      &:hover {
+        border-bottom: 1px dotted $lightColor;
+      }
     }
 
     &:last-child {
