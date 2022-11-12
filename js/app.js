@@ -47,14 +47,14 @@ async function createCards(optionValue) {
 
   uiLoading(true);
   const { data } = await useFetch();
-  const items = data.filter(({ tag }) => tag === optionValue);
+  const items = data.filter(({ tags }) => tags.includes(optionValue));
   uiLoading(false);
 
   contentData.classList.add('fade-in');
   h2.textContent =
     items.length > 1
-      ? `Hay ${items.length} recursos disponibles para ${optionValue}`
-      : `Hay ${items.length} recurso disponible para ${optionValue}`;
+      ? `Hay ${items.length} recursos filtrados por '${optionValue}'`
+      : `Hay ${items.length} recurso filtrado por '${optionValue}'`;
 
   p.textContent = `De un total de ${data.length} publicados en el sitio.`;
   contentStat.append(h2, p);

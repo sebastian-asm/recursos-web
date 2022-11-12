@@ -1,15 +1,16 @@
 .loading {
   text-align: center;
+  font-size: $fontMedium;
 
   svg {
     stroke: $lightColorAlt;
-    animation: animate 1.8s linear infinite;
+    animation: animate 1.5s linear infinite;
     width: 6rem;
     height: auto;
   }
 
-  p {
-    font-size: $fontMedium;
+  small {
+    display: block;
     color: $lightColorAlt;
     font-weight: bold;
     margin-top: 0.5rem;

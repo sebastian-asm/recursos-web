@@ -82,20 +82,21 @@
         border-radius: $borderRadius;
         overflow: hidden;
         transition: $transition;
-        border: 0.3rem solid $bgColor;
+        border: 0.4rem solid $bgColor;
         background-color: $bgColorAlt;
 
         &:hover {
-          border: 0.3rem solid $lightColorAlt;
+          border: 0.4rem solid $lightColorAlt;
         }
 
         &__image {
           width: 100%;
-          height: auto;
+          height: 17rem;
+          object-fit: cover;
         }
 
         &__info {
-          height: 16.5rem;
+          height: 17rem;
           padding: 1.8rem;
           font-size: $fontMedium;
 
@@ -106,6 +107,25 @@
 
           p {
             color: $lightColor;
+          }
+        }
+
+        &__tags {
+          padding: 0 1.8rem;
+          height: 8.5rem;
+          font-size: $fontMedium;
+
+          small {
+            display: inline-block;
+            background-color: $bgColor;
+            color: $lightColor;
+            border-radius: $borderRadius;
+            padding: 0.5rem 1rem;
+            margin: 0.8rem 0.8rem 0 0;
+
+            &:last-child {
+              margin-right: 0;
+            }
           }
         }
       }
