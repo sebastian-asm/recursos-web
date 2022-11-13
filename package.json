@@ -4,7 +4,7 @@
   "description": "Recursos gratuitos de Desarrollo Web.",
   "main": "index.js",
   "scripts": {
-    "build-sass": "sass ./scss/index.scss ./css/style.css -w -s compressed --no-source-map"
+    "build-sass": "sass ./scss/index.scss ./css/style.min.css -w -s compressed --no-source-map"
   },
   "keywords": [],
   "author": "Sebastián Sánchez",

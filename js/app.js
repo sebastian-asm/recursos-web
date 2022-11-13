@@ -15,7 +15,7 @@ async function app() {
   d.querySelector('#year').textContent = new Date().getFullYear();
 
   uiLoading(true);
-  await getTags(); // esperar para obtener un valor en el option del select
+  await getTags();
   createCards(selectTag.value);
   uiLoading(false);
 
@@ -38,6 +38,7 @@ async function getTags() {
 }
 
 async function createCards(optionValue) {
+  const total = d.querySelector('#total');
   const h2 = d.createElement('h2');
   const p = d.createElement('p');
 
@@ -50,13 +51,17 @@ async function createCards(optionValue) {
   const items = data.filter(({ tags }) => tags.includes(optionValue));
   uiLoading(false);
 
+  total.classList.add('fade-in');
+  total.textContent = data.length;
+
   contentData.classList.add('fade-in');
   h2.textContent =
     items.length > 1
       ? `Hay ${items.length} recursos filtrados por '${optionValue}'`
       : `Hay ${items.length} recurso filtrado por '${optionValue}'`;
 
-  p.textContent = `De un total de ${data.length} publicados en el sitio.`;
+  const percentage = (items.length * 100) / data.length;
+  p.textContent = `Lo que representa el ${percentage.toFixed(1)}% del total.`;
   contentStat.append(h2, p);
 
   items.forEach(uiCard);

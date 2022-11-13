@@ -11,6 +11,10 @@
     padding: 2rem;
     border-radius: $borderRadius;
 
+    span {
+      font-weight: bold;
+    }
+
     svg {
       stroke: $lightColorAlt;
       max-width: 4rem;
