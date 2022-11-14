@@ -60,8 +60,8 @@ async function createCards(optionValue) {
       ? `Hay ${items.length} recursos filtrados por '${optionValue}'`
       : `Hay ${items.length} recurso filtrado por '${optionValue}'`;
 
-  const percentage = (items.length * 100) / data.length;
-  p.textContent = `Lo que representa el ${percentage.toFixed(1)}% del total.`;
+  const percentage = ((items.length * 100) / data.length).toFixed(1);
+  p.textContent = `Lo que representa el ${percentage}% del contenido total.`;
   contentStat.append(h2, p);
 
   items.forEach(uiCard);
