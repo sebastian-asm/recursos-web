@@ -1,0 +1,19 @@
+.alert {
+  @extend .container;
+  font-size: $fontMedium;
+  color: $lightColor;
+  margin-top: 6rem;
+
+  &__text {
+    display: flex;
+    align-items: center;
+    border: 0.1rem solid $errorColor;
+    padding: 2rem;
+    border-radius: $borderRadius;
+
+    svg {
+      @extend .svg-animate;
+      stroke: $errorColor;
+    }
+  }
+}

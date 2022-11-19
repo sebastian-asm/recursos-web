@@ -64,3 +64,19 @@ a {
     opacity: 1;
   }
 }
+
+.svg-animate {
+  max-width: 4rem;
+  height: auto;
+  margin-right: 2rem;
+  animation: opacityMove 1.5s infinite linear alternate;
+}
+
+@keyframes opacityMove {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.2;
+  }
+}

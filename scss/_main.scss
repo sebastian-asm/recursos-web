@@ -1,10 +1,10 @@
-.alert {
+.message {
   @extend .container;
   font-size: $fontMedium;
   color: $lightColor;
   margin-top: 6rem;
 
-  &__message {
+  &__text {
     display: flex;
     align-items: center;
     border: 0.1rem solid $bgColorAlt;
@@ -16,20 +16,8 @@
     }
 
     svg {
+      @extend .svg-animate;
       stroke: $lightColorAlt;
-      max-width: 4rem;
-      height: auto;
-      margin-right: 2rem;
-      animation: move 1.5s infinite linear alternate;
-    }
-
-    @keyframes move {
-      from {
-        opacity: 1;
-      }
-      to {
-        opacity: 0.2;
-      }
     }
   }
 }

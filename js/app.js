@@ -1,6 +1,4 @@
-import uiButtonTop from './ui/buttonTop.js';
-import uiCard from './ui/card.js';
-import uiLoading from './ui/loading.js';
+import { uiButtonTop, uiCard, uiLoading, uiAlertError } from './ui/index.js';
 import useFetch from './useFetch.js';
 
 const d = document;
@@ -14,15 +12,22 @@ d.addEventListener('DOMContentLoaded', app);
 async function app() {
   d.querySelector('#year').textContent = new Date().getFullYear();
 
-  uiLoading(true);
-  await getTags();
-  createCards(selectTag.value);
-  uiLoading(false);
+  try {
+    if (d.querySelector('#alert')) d.querySelector('alert').remove();
 
-  window.addEventListener('scroll', uiButtonTop);
-  selectTag.addEventListener('change', ({ target }) =>
-    createCards(target.value)
-  );
+    uiLoading(true);
+    await getTags();
+    createCards(selectTag.value);
+
+    window.addEventListener('scroll', uiButtonTop);
+    selectTag.addEventListener('change', ({ target }) =>
+      createCards(target.value)
+    );
+  } catch {
+    uiAlertError();
+  } finally {
+    uiLoading(false);
+  }
 }
 
 async function getTags() {
