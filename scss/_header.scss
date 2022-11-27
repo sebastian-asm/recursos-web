@@ -1,5 +1,8 @@
 .header {
-  background-image: linear-gradient(45deg, #8ecf77, #51963d);
+  // background-image: linear-gradient(45deg, #8ecf77, #51963d);
+  background-image: url('/assets/animated-shape.svg');
+  background-size: cover;
+  background-position: top center;
   color: $lightColor;
 
   &__navbar {
@@ -40,8 +43,13 @@
 }
 
 @media (min-width: $bpMedium) {
-  .header__intro p {
-    width: 80%;
-    margin: 0 auto;
+  .header__intro {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+
+    p {
+      width: 80%;
+      margin: 0 auto;
+    }
   }
 }

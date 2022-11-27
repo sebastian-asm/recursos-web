@@ -9,8 +9,9 @@ export default function uiCard(item, index) {
 
   templateCards.querySelector('a').href = url;
   templateCards.querySelector('img').src = `${cloudinary + image}.png`;
+  templateCards.querySelector('span').textContent = index + 1;
   templateCards.querySelector('img').alt = title;
-  templateCards.querySelector('h3').textContent = `${index + 1}. ${title}`;
+  templateCards.querySelector('h3').textContent = title;
   templateCards.querySelector('p').textContent = description;
   templateCards.querySelector('#tags').innerHTML = '';
 
