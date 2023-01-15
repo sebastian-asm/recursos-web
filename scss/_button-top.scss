@@ -5,6 +5,9 @@
   width: 5.5rem;
   height: auto;
   transition: $transition;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
 
   svg {
     border-radius: 50%;

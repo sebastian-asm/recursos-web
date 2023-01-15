@@ -1,8 +1,5 @@
 .header {
-  // background-image: linear-gradient(45deg, #8ecf77, #51963d);
-  background-image: url('/assets/animated-shape.svg');
-  background-size: cover;
-  background-position: top center;
+  background-image: linear-gradient(45deg, #8ecf77, #51963d);
   color: $lightColor;
 
   &__navbar {
